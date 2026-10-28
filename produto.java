@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package programacao_algoritimo;
 
 public class produto {
@@ -23,3 +24,24 @@ public class produto {
 	}
 
 }
+=======
+package exercicios;
+
+public class produto {
+
+		String modelo;
+		float ano;
+		
+		produto(){    
+	    }
+        produto(String modelo){
+        	this.modelo=modelo;
+        }
+	produto(String modelo, float ano){
+	
+		this.modelo = modelo;
+		this.ano = ano;
+		
+	}
+}
+>>>>>>> 801807cf10c48e3a7a9f4aae40faaf7f1e42c624
